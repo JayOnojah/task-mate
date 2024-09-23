@@ -1,7 +1,7 @@
 import Link from "next/link";
+import { Medal } from "lucide-react";
 import localFont from "next/font/local";
 import { Poppins } from "next/font/google";
-import { Medal } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -31,7 +31,7 @@ const LandingPage = () => {
           TaskMate helps team move
         </h1>
         <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 p-2 rounded-md pb-4 w-fit">
-          Work forward.
+          Work Forward.
         </div>
       </div>
       <div
@@ -44,7 +44,7 @@ const LandingPage = () => {
         accomplish it all with TaskMate.
       </div>
       <Button className="mt-6" size="lg" asChild>
-        <Link href="/sign-up">Get TaskMate for free</Link>
+        <Link href="/sign-up">Get TaskMate for Free</Link>
       </Button>
     </div>
   );
