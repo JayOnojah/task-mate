@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #f1f5f9;
-  --foreground: #171717;
-}
-
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
 } */
+
+:root {
+  --background: #f1f5f9;
+  --foreground: #171717;
+}
 
 body {
   color: var(--foreground);
@@ -89,4 +89,8 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.word-spacing {
+  word-spacing: 3px;
 }
