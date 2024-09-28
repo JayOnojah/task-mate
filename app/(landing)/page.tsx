@@ -30,9 +30,9 @@ const LandingPage = () => {
           <span className="word-spacing">#1 Task Management Platform</span>
         </div>
         <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6">
-          Helping teams advance.
+          Helping Teams Advance
         </h1>
-        <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 p-2 rounded-md pb-4 w-fit">
+        <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 p-2 rounded-md pb-1 w-fit">
           The Forward Tool
         </div>
       </div>

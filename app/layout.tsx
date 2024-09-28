@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
 import { siteConfig } from "@/config/site";
 
 import { Inter } from "next/font/google";
+
+import "./globals.css";
 
 const textFont = Inter({
   subsets: ["latin"],
