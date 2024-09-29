@@ -5,6 +5,12 @@ const isPublicRoute = createRouteMatcher(["/", "/sign-in(.*)", "/sign-up(.*)"]);
 export default clerkMiddleware((auth, request) => {
   if (!isPublicRoute(request)) {
     auth().protect();
+  } else {
+    let path = "/select-org";
+
+    if (auth.orgId) {
+      path = `/organization/${auth.orgId}`;
+    }
   }
 });
 
