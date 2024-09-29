@@ -8,8 +8,8 @@ export default clerkMiddleware((auth, request) => {
   } else {
     let path = "/select-org";
 
-    if (auth.orgId) {
-      path = `/organization/${auth.orgId}`;
+    if (auth().orgId) {
+      path = `/organization/${auth().orgId}`;
     }
   }
 });
